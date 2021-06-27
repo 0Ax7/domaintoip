@@ -1,2 +1,2 @@
-# domain to ip
+# simpel domain to ip
 domain to ip
