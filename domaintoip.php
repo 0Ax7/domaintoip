@@ -1,6 +1,6 @@
 <?php
-$input_file = readline('Masukan file: ');
-$c_name = readline('bernama nama file untuk di save: ');
+$input_file = readline('input target: ');
+$c_name = readline('save target: ');
 $save = fopen($c_name,'w');
 if (file_exists($input_file)){
     $baca = fopen($input_file,"r");
@@ -20,6 +20,6 @@ if (file_exists($input_file)){
     fclose($baca);   
     fclose($save);
 }else{
-    echo 'file tidak di temukan';
+    echo 'file not found';
 }
 ?>
