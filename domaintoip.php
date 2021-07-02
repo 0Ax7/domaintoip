@@ -1,8 +1,12 @@
 <?php
-$input_file = readline('input target: ');
-$c_name = readline('save target: ');
+echo"===================[ domain to ip ]======================";
+echo "\r\n";  
+echo"\n";
+$input_file = readline('0axz- input target: ');
+$c_name = readline('0axz- save target: ');
 $save = fopen($c_name,'w');
 if (file_exists($input_file)){
+
     $baca = fopen($input_file,"r");
     while(!feof($baca)){
         $line = fgets($baca);
